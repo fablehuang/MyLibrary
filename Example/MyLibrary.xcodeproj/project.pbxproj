@@ -513,6 +513,8 @@
 			baseConfigurationReference = 6B05940A885BC66A1449898F /* Pods-MyLibrary_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyLibrary/MyLibrary-Prefix.pch";
 				INFOPLIST_FILE = "MyLibrary/MyLibrary-Info.plist";
@@ -529,6 +531,7 @@
 			baseConfigurationReference = 189413914BA53DB54D57B70E /* Pods-MyLibrary_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyLibrary/MyLibrary-Prefix.pch";
 				INFOPLIST_FILE = "MyLibrary/MyLibrary-Info.plist";

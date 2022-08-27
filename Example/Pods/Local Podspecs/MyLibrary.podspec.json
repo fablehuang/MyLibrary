@@ -3,20 +3,26 @@
   "version": "0.1.0",
   "summary": "A short description of MyLibrary.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/timflhuang/MyLibrary",
+  "homepage": "https://github.com/fablehuang/MyLibrary",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "timflhuang": "timflhuang@tencent.com"
+    "fablehuang": "805248896@qq.com"
   },
   "source": {
-    "git": "https://github.com/timflhuang/MyLibrary.git",
+    "git": "https://github.com/fablehuang/MyLibrary.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "MyLibrary/Classes/**/*"
+  "source_files": "MyLibrary/Classes/**/*",
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  }
 }

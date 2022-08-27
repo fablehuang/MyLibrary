@@ -1,0 +1,542 @@
+
+What language do you want to use?? [ Swift / ObjC ]
+ > ObjC
+
+Would you like to include a demo application with your library? [ Yes / No ]
+ > Yes
+
+Which testing frameworks will you use? [ Specta / Kiwi / None ]
+ > None
+
+Would you like to do view based testing? [ Yes / No ]
+ > Yes
+
+What is your class prefix?
+ > HFL
+security: SecKeychainSearchCopyNext: The specified item could not be found in the keychain.
+security: SecKeychainSearchCopyNext: The specified item could not be found in the keychain.
+security: SecKeychainSearchCopyNext: The specified item could not be found in the keychain.
+security: SecKeychainSearchCopyNext: The specified item could not be found in thsecurity: SecKeychainSearchCopyNext: The specified item could not be foun nsecurity: SecKeychainSearchCopyNext: The specified item could not be fspsecurity: SecKeychainSearchCopyNext: The specified item could nnssecurity: SecKeychainSearchCopyNext: The specifiedaussecurity: SecKeychainSearbuilsecurity: SecKeychainSearchCopyNext: The specifiengsecurndencies
+Downloading dependencies
+Installing FBSnapshotTestCase (2.1.4)
+Installing MyLibrary (0.1.0)
+Generating Pods project
+Integrating client project
+
+[!] Please close any current Xcode sessions and use `MyLibrary.xcworkspace` for this project from now on.
+Pod installation complete! There are 2 dependencies from the Podfile and 2 total pods installed.
+
+[!] Your project does not explicitly specify the CocoaPods master specs repo. Since CDN is now used as the default, you may safely remove it from your repos directory via `pod repo remove master`. To suppress this warning please add `warn_for_unused_master_specs_repo => false` to your Podfile.
+
+ Ace! you're ready to go!
+ We will start you off by opening your project in Xcode
+  open 'MyLibrary/Example/MyLibrary.xcworkspace'
+
+To learn more about the template see `https://github.com/CocoaPods/pod-template.git`.
+To learn more about creating a new pod, see `https://guides.cocoapods.org/making/making-a-cocoapod`.
+➜  podframework open .
+➜  podframework ll
+total 0
+drwxr-xr-x  11 timhuang  staff   352B  8 27 20:19 MyLibrary
+➜  podframework cd MyLibrary
+➜  MyLibrary git:(master) ✗ ll
+total 24
+drwxr-xr-x  9 timhuang  staff   288B  8 27 20:19 Example
+-rw-r--r--  1 timhuang  staff   1.1K  8 27 20:19 LICENSE
+drwxr-xr-x  4 timhuang  staff   128B  8 27 20:15 MyLibrary
+-rw-r--r--@ 1 timhuang  staff   1.6K  8 27 20:19 MyLibrary.podspec
+-rw-r--r--  1 timhuang  staff   924B  8 27 20:19 README.md
+lrwxr-xr-x  1 timhuang  staff    27B  8 27 20:19 _Pods.xcodeproj -> Example/Pods/Pods.xcodeproj
+➜  MyLibrary git:(master) ✗ open .
+➜  MyLibrary git:(master) ✗ cd Example
+➜  Example git:(master) ✗ pod install
+Ignoring ffi-1.15.4 because its extensions are not built. Try: gem pristine ffi --version 1.15.4
+Analyzing dependencies
+Downloading dependencies
+Generating Pods project
+Integrating client project
+Pod installation complete! There are 2 dependencies from the Podfile and 2 total pods installed.
+
+[!] Your project does not explicitly specify the CocoaPods master specs repo. Since CDN is now used as the default, you may safely remove it from your repos directory via `pod repo remove master`. To suppress this warning please add `warn_for_unused_master_specs_repo => false` to your Podfile.
+➜  Example git:(master) ✗ pod package MyLibrary --force --no-mangle
+➜  Example git:(master) ✗ open .
+➜  Example git:(master) ✗ cd ..
+➜  MyLibrary git:(master) ✗ pod package MyLibrary.podspec --force --no-mangle
+Ignoring ffi-1.15.4 because its extensions are not built. Try: gem pristine ffi --version 1.15.4
+[!] Unknown command: `package`
+Did you mean: cache?
+
+Usage:
+
+    $ pod COMMAND
+
+      CocoaPods, the Cocoa library package manager.
+
+Commands:
+
+    + cache         Manipulate the CocoaPods cache
+    + deintegrate   Deintegrate CocoaPods from your project
+    + env           Display pod environment
+    + init          Generate a Podfile for the current directory
+    + install       Install project dependencies according to versions from a
+                    Podfile.lock
+    + ipc           Inter-process communication
+    + lib           Develop pods
+    + list          List pods
+    + outdated      Show outdated project dependencies
+    + plugins       Show available CocoaPods plugins
+    + repo          Manage spec-repositories
+    + search        Search for pods
+    + setup         Setup the CocoaPods environment
+    + spec          Manage pod specs
+    + trunk         Interact with the CocoaPods API (e.g. publishing new specs)
+    + try           Try a Pod!
+    + update        Update outdated project dependencies and create new
+                    Podfile.lock
+
+Options:
+
+    --allow-root    Allows CocoaPods to run as root
+    --silent        Show nothing
+    --version       Show the version of the tool
+    --verbose       Show more debugging information
+    --no-ansi       Show output without ANSI codes
+    --help          Show help banner of specified command
+➜  MyLibrary git:(master) ✗ sudo gem install cocoapods-packager
+Password:
+Sorry, try again.
+Password:
+Fetching xcodeproj-1.22.0.gem
+Building native extensions. This could take a while...
+Successfully installed ffi-1.15.5
+Successfully installed ethon-0.15.0
+Successfully installed typhoeus-1.4.0
+Successfully installed cocoapods-core-1.11.3
+Successfully installed molinillo-0.8.0
+xcodeproj's executable "xcodeproj" conflicts with /usr/local/bin/xcodeproj
+Overwrite the executable? [yN]  y
+Successfully installed xcodeproj-1.22.0
+cocoapods's executable "pod" conflicts with /usr/local/bin/pod
+Overwrite the executable? [yN]  y
+Successfully installed cocoapods-1.11.3
+Successfully installed cocoapods-packager-1.5.0
+Parsing documentation for ffi-1.15.5
+Installing ri documentation for ffi-1.15.5
+Parsing documentation for ethon-0.15.0
+Installing ri documentation for ethon-0.15.0
+Parsing documentation for typhoeus-1.4.0
+Installing ri documentation for typhoeus-1.4.0
+Parsing documentation for cocoapods-core-1.11.3
+Installing ri documentation for cocoapods-core-1.11.3
+Parsing documentation for molinillo-0.8.0
+Installing ri documentation for molinillo-0.8.0
+Parsing documentation for xcodeproj-1.22.0
+Installing ri documentation for xcodeproj-1.22.0
+Parsing documentation for cocoapods-1.11.3
+Installing ri documentation for cocoapods-1.11.3
+Parsing documentation for cocoapods-packager-1.5.0
+Installing ri documentation for cocoapods-packager-1.5.0
+Done installing documentation for ffi, ethon, typhoeus, cocoapods-core, molinillo, xcodeproj, cocoapods, cocoapods-packager after 24 seconds
+8 gems installed
+➜  MyLibrary git:(master) ✗ pod package MyLibrary.podspec --force --no-mangle
+Analyzing dependencies
+Fetching podspec for `MyLibrary` from `MyLibrary.podspec`
+Downloading dependencies
+Installing MyLibrary (0.1.0)
+Username for 'https://github.com': fablehuang
+Password for 'https://fablehuang@github.com':
+
+[!] Error installing MyLibrary
+[!] /usr/local/bin/git clone https://github.com/timflhuang/MyLibrary.git /var/folders/63/4tgymqqx5l75lj9656v7s1cw0000gn/T/d20220827-14056-qq2t7r --template= --single-branch --depth 1 --branch 0.1.0
+
+正克隆到 '/var/folders/63/4tgymqqx5l75lj9656v7s1cw0000gn/T/d20220827-14056-qq2t7r'...
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: 'https://github.com/timflhuang/MyLibrary.git/' 鉴权失败
+
+➜  MyLibrary git:(master) ✗ pod package MyLibrary.podspec --force --no-mangle
+Analyzing dependencies
+Fetching podspec for `MyLibrary` from `MyLibrary.podspec`
+Downloading dependencies
+Installing MyLibrary (0.1.0)
+Username for 'https://github.com': fablehuang
+Password for 'https://fablehuang@github.com':
+
+[!] Error installing MyLibrary
+[!] /usr/local/bin/git clone https://github.com/timflhuang/MyLibrary.git /var/folders/63/4tgymqqx5l75lj9656v7s1cw0000gn/T/d20220827-15896-1d55ylv --template= --single-branch --depth 1 --branch 0.1.0
+
+正克隆到 '/var/folders/63/4tgymqqx5l75lj9656v7s1cw0000gn/T/d20220827-15896-1d55ylv'...
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: 'https://github.com/timflhuang/MyLibrary.git/' 鉴权失败
+
+➜  MyLibrary git:(master) ✗ pod package MyLibrary.podspec --force --no-mangle
+Analyzing dependencies
+Fetching podspec for `MyLibrary` from `MyLibrary.podspec`
+Downloading dependencies
+Installing MyLibrary (0.1.0)
+Username for 'https://github.com': 805248896@qq.com
+Password for 'https://805248896@qq.com@github.com':
+
+[!] Error installing MyLibrary
+[!] /usr/local/bin/git clone https://github.com/timflhuang/MyLibrary.git /var/folders/63/4tgymqqx5l75lj9656v7s1cw0000gn/T/d20220827-16641-1j2spdu --template= --single-branch --depth 1 --branch 0.1.0
+
+正克隆到 '/var/folders/63/4tgymqqx5l75lj9656v7s1cw0000gn/T/d20220827-16641-1j2spdu'...
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: 'https://github.com/timflhuang/MyLibrary.git/' 鉴权失败
+
+➜  MyLibrary git:(master) ✗ pod package MyLibrary.podspec --force --no-mangle
+Analyzing dependencies
+Fetching podspec for `MyLibrary` from `MyLibrary.podspec`
+Downloading dependencies
+Installing MyLibrary (0.1.0)
+Username for 'https://github.com': fablehuang
+Password for 'https://fablehuang@github.com':
+
+[!] Error installing MyLibrary
+[!] /usr/local/bin/git clone https://github.com/timflhuang/MyLibrary.git /var/folders/63/4tgymqqx5l75lj9656v7s1cw0000gn/T/d20220827-26291-mec8xh --template= --single-branch --depth 1 --branch 0.1.0
+
+正克隆到 '/var/folders/63/4tgymqqx5l75lj9656v7s1cw0000gn/T/d20220827-26291-mec8xh'...
+remote: Repository not found.
+fatal: 仓库 'https://github.com/timflhuang/MyLibrary.git/' 未找到
+
+➜  MyLibrary git:(master) ✗ pod package MyLibrary.podspec --force --no-mangle
+Analyzing dependencies
+Fetching podspec for `MyLibrary` from `MyLibrary.podspec`
+Downloading dependencies
+Installing MyLibrary (0.1.0)
+Username for 'https://github.com': timflhuang
+Password for 'https://timflhuang@github.com':
+
+[!] Error installing MyLibrary
+[!] /usr/local/bin/git clone https://github.com/timflhuang/MyLibrary.git /var/folders/63/4tgymqqx5l75lj9656v7s1cw0000gn/T/d20220827-26383-6xugb9 --template= --single-branch --depth 1 --branch 0.1.0
+
+正克隆到 '/var/folders/63/4tgymqqx5l75lj9656v7s1cw0000gn/T/d20220827-26383-6xugb9'...
+remote: Repository not found.
+fatal: 仓库 'https://github.com/timflhuang/MyLibrary.git/' 未找到
+
+➜  MyLibrary git:(master) ✗ pod package MyLibrary.podspec --force --no-mangle
+Analyzing dependencies
+Fetching podspec for `MyLibrary` from `MyLibrary.podspec`
+Downloading dependencies
+Installing MyLibrary (0.1.0)
+Username for 'https://github.com': timflhuang
+Password for 'https://timflhuang@github.com':
+
+[!] Error installing MyLibrary
+[!] /usr/local/bin/git clone https://github.com/timflhuang/MyLibrary.git /var/folders/63/4tgymqqx5l75lj9656v7s1cw0000gn/T/d20220827-26613-e70wt --template= --single-branch --depth 1 --branch 0.1.0
+
+正克隆到 '/var/folders/63/4tgymqqx5l75lj9656v7s1cw0000gn/T/d20220827-26613-e70wt'...
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: 'https://github.com/timflhuang/MyLibrary.git/' 鉴权失败
+
+➜  MyLibrary git:(master) ✗ pod package MyLibrary.podspec --force --no-mangle
+Analyzing dependencies
+Fetching podspec for `MyLibrary` from `MyLibrary.podspec`
+Downloading dependencies
+Installing MyLibrary (0.1.0)
+Username for 'https://github.com': fablehuang
+Password for 'https://fablehuang@github.com':
+
+[!] Error installing MyLibrary
+[!] /usr/local/bin/git clone https://github.com/timflhuang/MyLibrary.git /var/folders/63/4tgymqqx5l75lj9656v7s1cw0000gn/T/d20220827-26704-1db8nnk --template= --single-branch --depth 1 --branch 0.1.0
+
+正克隆到 '/var/folders/63/4tgymqqx5l75lj9656v7s1cw0000gn/T/d20220827-26704-1db8nnk'...
+remote: Repository not found.
+fatal: 仓库 'https://github.com/timflhuang/MyLibrary.git/' 未找到
+
+➜  MyLibrary git:(master) ✗ pod package MyLibrary.podspec --force --no-mangle
+Analyzing dependencies
+Fetching podspec for `MyLibrary` from `MyLibrary.podspec`
+Downloading dependencies
+Installing MyLibrary (0.1.0)
+Username for 'https://github.com': fablehuang
+Password for 'https://fablehuang@github.com':
+
+[!] Error installing MyLibrary
+[!] /usr/local/bin/git clone https://github.com/timflhuang/MyLibrary.git /var/folders/63/4tgymqqx5l75lj9656v7s1cw0000gn/T/d20220827-33274-17edkvy --template= --single-branch --depth 1 --branch 0.1.0
+
+正克隆到 '/var/folders/63/4tgymqqx5l75lj9656v7s1cw0000gn/T/d20220827-33274-17edkvy'...
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: 'https://github.com/timflhuang/MyLibrary.git/' 鉴权失败
+
+➜  MyLibrary git:(master) ✗ open .
+➜  MyLibrary git:(master) ✗ pod package MyLibrary.podspec --force --no-mangle
+Analyzing dependencies
+Fetching podspec for `MyLibrary` from `MyLibrary.podspec`
+Downloading dependencies
+Installing MyLibrary (0.1.0)
+
+[!] Error installing MyLibrary
+[!] /usr/local/bin/git clone https://github.com/fablehuang/MyLibrary.git /var/folders/63/4tgymqqx5l75lj9656v7s1cw0000gn/T/d20220827-34012-1p7fn6b --template= --single-branch --depth 1 --branch 0.1.0
+
+正克隆到 '/var/folders/63/4tgymqqx5l75lj9656v7s1cw0000gn/T/d20220827-34012-1p7fn6b'...
+fatal: 远程分支 0.1.0 在上游 origin 未发现
+
+➜  MyLibrary git:(master) ✗ git status
+位于分支 master
+要提交的变更：
+  （使用 "git restore --staged <文件>..." 以取消暂存）
+	新文件：   MyLibrary/Classes/MyLibraryManager.h
+	新文件：   MyLibrary/Classes/MyLibraryManager.m
+	删除：     MyLibrary/Classes/ReplaceMe.m
+
+尚未暂存以备提交的变更：
+  （使用 "git add <文件>..." 更新要提交的内容）
+  （使用 "git restore <文件>..." 丢弃工作区的改动）
+	修改：     Example/MyLibrary.xcodeproj/project.pbxproj
+	修改：     Example/MyLibrary/HFLViewController.m
+	修改：     MyLibrary.podspec
+	修改：     MyLibrary/Classes/MyLibraryManager.h
+	修改：     MyLibrary/Classes/MyLibraryManager.m
+
+未跟踪的文件:
+  （使用 "git add <文件>..." 以包含要提交的内容）
+	Example/MyLibrary.xcworkspace/
+	Example/Podfile.lock
+	Example/Pods/
+
+➜  MyLibrary git:(master) ✗ git add .
+➜  MyLibrary git:(master) ✗ git commit -m "feat: init"
+[master 769d377] feat: init
+ 61 files changed, 3748 insertions(+), 7 deletions(-)
+ create mode 100644 Example/MyLibrary.xcworkspace/contents.xcworkspacedata
+ create mode 100644 Example/MyLibrary.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+ create mode 100644 Example/Podfile.lock
+ create mode 100644 Example/Pods/FBSnapshotTestCase/FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h
+ create mode 100644 Example/Pods/FBSnapshotTestCase/FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m
+ create mode 100644 Example/Pods/FBSnapshotTestCase/FBSnapshotTestCase/Categories/UIImage+Compare.h
+ create mode 100644 Example/Pods/FBSnapshotTestCase/FBSnapshotTestCase/Categories/UIImage+Compare.m
+ create mode 100644 Example/Pods/FBSnapshotTestCase/FBSnapshotTestCase/Categories/UIImage+Diff.h
+ create mode 100644 Example/Pods/FBSnapshotTestCase/FBSnapshotTestCase/Categories/UIImage+Diff.m
+ create mode 100644 Example/Pods/FBSnapshotTestCase/FBSnapshotTestCase/Categories/UIImage+Snapshot.h
+ create mode 100644 Example/Pods/FBSnapshotTestCase/FBSnapshotTestCase/Categories/UIImage+Snapshot.m
+ create mode 100644 Example/Pods/FBSnapshotTestCase/FBSnapshotTestCase/FBSnapshotTestCase.h
+ create mode 100644 Example/Pods/FBSnapshotTestCase/FBSnapshotTestCase/FBSnapshotTestCase.m
+ create mode 100644 Example/Pods/FBSnapshotTestCase/FBSnapshotTestCase/FBSnapshotTestCasePlatform.h
+ create mode 100644 Example/Pods/FBSnapshotTestCase/FBSnapshotTestCase/FBSnapshotTestCasePlatform.m
+ create mode 100644 Example/Pods/FBSnapshotTestCase/FBSnapshotTestCase/FBSnapshotTestController.h
+ create mode 100644 Example/Pods/FBSnapshotTestCase/FBSnapshotTestCase/FBSnapshotTestController.m
+ create mode 100644 Example/Pods/FBSnapshotTestCase/FBSnapshotTestCase/SwiftSupport.swift
+ create mode 100644 Example/Pods/FBSnapshotTestCase/LICENSE
+ create mode 100644 Example/Pods/FBSnapshotTestCase/README.md
+ create mode 100644 Example/Pods/Local Podspecs/MyLibrary.podspec.json
+ create mode 100644 Example/Pods/Manifest.lock
+ create mode 100644 Example/Pods/Pods.xcodeproj/project.pbxproj
+ create mode 100644 Example/Pods/Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist
+ create mode 100644 Example/Pods/Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-dummy.m
+ create mode 100644 Example/Pods/Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch
+ create mode 100644 Example/Pods/Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-umbrella.h
+ create mode 100644 Example/Pods/Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.debug.xcconfig
+ create mode 100644 Example/Pods/Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap
+ create mode 100644 Example/Pods/Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.release.xcconfig
+ create mode 100644 Example/Pods/Target Support Files/MyLibrary/MyLibrary-Info.plist
+ create mode 100644 Example/Pods/Target Support Files/MyLibrary/MyLibrary-dummy.m
+ create mode 100644 Example/Pods/Target Support Files/MyLibrary/MyLibrary-prefix.pch
+ create mode 100644 Example/Pods/Target Support Files/MyLibrary/MyLibrary-umbrella.h
+ create mode 100644 Example/Pods/Target Support Files/MyLibrary/MyLibrary.debug.xcconfig
+ create mode 100644 Example/Pods/Target Support Files/MyLibrary/MyLibrary.modulemap
+ create mode 100644 Example/Pods/Target Support Files/MyLibrary/MyLibrary.release.xcconfig
+ create mode 100644 Example/Pods/Target Support Files/Pods-MyLibrary_Example/Pods-MyLibrary_Example-Info.plist
+ create mode 100644 Example/Pods/Target Support Files/Pods-MyLibrary_Example/Pods-MyLibrary_Example-acknowledgements.markdown
+ create mode 100644 Example/Pods/Target Support Files/Pods-MyLibrary_Example/Pods-MyLibrary_Example-acknowledgements.plist
+ create mode 100644 Example/Pods/Target Support Files/Pods-MyLibrary_Example/Pods-MyLibrary_Example-dummy.m
+ create mode 100755 Example/Pods/Target Support Files/Pods-MyLibrary_Example/Pods-MyLibrary_Example-frameworks.sh
+ create mode 100644 Example/Pods/Target Support Files/Pods-MyLibrary_Example/Pods-MyLibrary_Example-umbrella.h
+ create mode 100644 Example/Pods/Target Support Files/Pods-MyLibrary_Example/Pods-MyLibrary_Example.debug.xcconfig
+ create mode 100644 Example/Pods/Target Support Files/Pods-MyLibrary_Example/Pods-MyLibrary_Example.modulemap
+ create mode 100644 Example/Pods/Target Support Files/Pods-MyLibrary_Example/Pods-MyLibrary_Example.release.xcconfig
+ create mode 100644 Example/Pods/Target Support Files/Pods-MyLibrary_Tests/Pods-MyLibrary_Tests-Info.plist
+ create mode 100644 Example/Pods/Target Support Files/Pods-MyLibrary_Tests/Pods-MyLibrary_Tests-acknowledgements.markdown
+ create mode 100644 Example/Pods/Target Support Files/Pods-MyLibrary_Tests/Pods-MyLibrary_Tests-acknowledgements.plist
+ create mode 100644 Example/Pods/Target Support Files/Pods-MyLibrary_Tests/Pods-MyLibrary_Tests-dummy.m
+ create mode 100755 Example/Pods/Target Support Files/Pods-MyLibrary_Tests/Pods-MyLibrary_Tests-frameworks.sh
+ create mode 100644 Example/Pods/Target Support Files/Pods-MyLibrary_Tests/Pods-MyLibrary_Tests-umbrella.h
+ create mode 100644 Example/Pods/Target Support Files/Pods-MyLibrary_Tests/Pods-MyLibrary_Tests.debug.xcconfig
+ create mode 100644 Example/Pods/Target Support Files/Pods-MyLibrary_Tests/Pods-MyLibrary_Tests.modulemap
+ create mode 100644 Example/Pods/Target Support Files/Pods-MyLibrary_Tests/Pods-MyLibrary_Tests.release.xcconfig
+ create mode 100644 MyLibrary/Classes/MyLibraryManager.h
+ create mode 100644 MyLibrary/Classes/MyLibraryManager.m
+ delete mode 100644 MyLibrary/Classes/ReplaceMe.m
+➜  MyLibrary git:(master) git push
+fatal: 没有配置推送目标。
+或通过命令行指定 URL，或用下面命令配置一个远程仓库
+
+    git remote add <名称> <地址>
+
+然后使用该远程仓库名执行推送
+
+    git push <名称>
+
+➜  MyLibrary git:(master) pod package MyLibrary.podspec --force --no-mangle
+Analyzing dependencies
+Fetching podspec for `MyLibrary` from `MyLibrary.podspec`
+Downloading dependencies
+Installing MyLibrary (0.1.0)
+
+[!] Error installing MyLibrary
+[!] /usr/local/bin/git clone https://github.com/fablehuang/MyLibrary.git /var/folders/63/4tgymqqx5l75lj9656v7s1cw0000gn/T/d20220827-34354-x9lplq --template= --single-branch --depth 1 --branch 0.1.0
+
+正克隆到 '/var/folders/63/4tgymqqx5l75lj9656v7s1cw0000gn/T/d20220827-34354-x9lplq'...
+fatal: 远程分支 0.1.0 在上游 origin 未发现
+
+➜  MyLibrary git:(master) git remote add MyLibrary https://github.com/fablehuang/MyLibrary.git
+➜  MyLibrary git:(master) git push MyLibrary
+fatal: 当前分支 master 没有对应的上游分支。
+为推送当前分支并建立与远程上游的跟踪，使用
+
+    git push --set-upstream MyLibrary master
+
+➜  MyLibrary git:(master) git push --set-upstream MyLibrary master
+Username for 'https://github.com': fablehuang
+Password for 'https://fablehuang@github.com':
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: 'https://github.com/fablehuang/MyLibrary.git/' 鉴权失败
+➜  MyLibrary git:(master) cd ..
+➜  podframework cd ..
+➜  Desktop cd /Users/timhuang/Documents
+➜  Documents ll
+total 0
+drwxr-xr-x   2 timhuang  staff    64B  8 10 09:22 IAC
+drwxr-xr-x@  2 timhuang  staff    64B  3  4 15:00 TencentMeeting
+drwxr-xr-x  10 timhuang  staff   320B  8 10 10:55 mna
+drwxr-xr-x  17 timhuang  staff   544B  8 10 09:14 ppt
+drwxr-xr-x  10 timhuang  staff   320B  8 10 11:02 study
+drwxr-xr-x  11 timhuang  staff   352B  8 24 22:18 tools
+drwxr-xr-x   4 timhuang  staff   128B  8 10 09:15 xlog
+drwxr-xr-x   5 timhuang  staff   160B  7 21 14:04 抓包
+drwxr-xr-x   4 timhuang  staff   128B  8 10 10:25 双通道sdk
+drwxr-xr-x   7 timhuang  staff   224B  8 10 09:19 个人信息
+drwxr-xr-x   4 timhuang  staff   128B  8 10 10:46 小鹅语音
+drwxr-xr-x   7 timhuang  staff   224B  8 10 10:44 智营网优sdk
+➜  Documents cd study
+➜  study ll
+total 0
+drwxr-xr-x   3 timhuang  staff    96B  8 10 11:02 Git
+drwxr-xr-x   6 timhuang  staff   192B  8 10 11:02 iOS
+drwxr-xr-x@  5 timhuang  staff   160B  8 10 09:16 linux
+drwxr-xr-x  15 timhuang  staff   480B  8 10 10:41 projects
+drwxr-xr-x   6 timhuang  staff   192B  8 10 11:02 网络
+drwxr-xr-x   3 timhuang  staff    96B  8 10 11:02 开发语言
+drwxrwxr-x@  8 timhuang  staff   256B  9  2  2020 设计模式相关
+➜  study cd projects
+➜  projects ll
+total 0
+drwxr-xr-x@  6 timhuang  staff   192B  8  3  2016 AudioQueueServiceDemo-master
+drwxr-xr-x@  6 timhuang  staff   192B 10 27  2021 GCDFetchFeed-master
+drwxrwxr-x@  6 timhuang  staff   192B  2 23  2013 IOS-RouteAddress-master
+drwxr-xr-x@ 10 timhuang  staff   320B  6  9  2020 JPVideoPlayer-master
+drwxr-xr-x@  4 timhuang  staff   128B  6 11  2018 LCQRCodeUtil-master
+drwxr-xr-x@  7 timhuang  staff   224B  3 18 13:09 MCAudioInputQueue-master
+drwxr-xr-x@ 14 timhuang  staff   448B  3 11 21:55 PLPlayerKit-master
+drwxr-xr-x@ 11 timhuang  staff   352B  6 16 16:30 QMUIDemo_iOS-master
+drwxr-xr-x@ 12 timhuang  staff   384B  3 11 21:23 SJVideoPlayer-master
+drwxr-xr-x@  6 timhuang  staff   192B  6 25  2019 VideoRecorder_iOS-master
+drwxr-xr-x@  6 timhuang  staff   192B  3 19  2017 XYRealTimeRecord-master
+drwxr-xr-x@  7 timhuang  staff   224B  5 26  2016 iOSAudioAndPlayManager-master
+➜  projects git clone https://github.com/fablehuang/MyLibrary.git
+正克隆到 'MyLibrary'...
+warning: 您似乎克隆了一个空仓库。
+➜  projects open .
+➜  projects cd MyLibrary
+➜  MyLibrary git:(master) ✗ git add .
+➜  MyLibrary git:(master) ✗ git commit -m "feat: init"
+[master（根提交） 2408079] feat: init
+ 88 files changed, 5251 insertions(+)
+ create mode 100644 Example/MyLibrary.xcodeproj/project.pbxproj
+ create mode 100644 Example/MyLibrary.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+ create mode 100644 Example/MyLibrary.xcodeproj/xcshareddata/xcschemes/MyLibrary-Example.xcscheme
+ create mode 100644 Example/MyLibrary.xcworkspace/contents.xcworkspacedata
+ create mode 100644 Example/MyLibrary.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+ create mode 100644 Example/MyLibrary.xcworkspace/xcuserdata/timhuang.xcuserdatad/UserInterfaceState.xcuserstate
+ create mode 100644 Example/MyLibrary/Base.lproj/LaunchScreen.storyboard
+ create mode 100644 Example/MyLibrary/Base.lproj/Main.storyboard
+ create mode 100644 Example/MyLibrary/HFLAppDelegate.h
+ create mode 100644 Example/MyLibrary/HFLAppDelegate.m
+ create mode 100644 Example/MyLibrary/HFLViewController.h
+ create mode 100644 Example/MyLibrary/HFLViewController.m
+ create mode 100644 Example/MyLibrary/Images.xcassets/AppIcon.appiconset/Contents.json
+ create mode 100644 Example/MyLibrary/MyLibrary-Info.plist
+ create mode 100644 Example/MyLibrary/MyLibrary-Prefix.pch
+ create mode 100644 Example/MyLibrary/en.lproj/InfoPlist.strings
+ create mode 100644 Example/MyLibrary/main.m
+ create mode 100644 Example/Podfile
+ create mode 100644 Example/Podfile.lock
+ create mode 100644 Example/Pods/FBSnapshotTestCase/FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h
+ create mode 100644 Example/Pods/FBSnapshotTestCase/FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m
+ create mode 100644 Example/Pods/FBSnapshotTestCase/FBSnapshotTestCase/Categories/UIImage+Compare.h
+ create mode 100644 Example/Pods/FBSnapshotTestCase/FBSnapshotTestCase/Categories/UIImage+Compare.m
+ create mode 100644 Example/Pods/FBSnapshotTestCase/FBSnapshotTestCase/Categories/UIImage+Diff.h
+ create mode 100644 Example/Pods/FBSnapshotTestCase/FBSnapshotTestCase/Categories/UIImage+Diff.m
+ create mode 100644 Example/Pods/FBSnapshotTestCase/FBSnapshotTestCase/Categories/UIImage+Snapshot.h
+ create mode 100644 Example/Pods/FBSnapshotTestCase/FBSnapshotTestCase/Categories/UIImage+Snapshot.m
+ create mode 100644 Example/Pods/FBSnapshotTestCase/FBSnapshotTestCase/FBSnapshotTestCase.h
+ create mode 100644 Example/Pods/FBSnapshotTestCase/FBSnapshotTestCase/FBSnapshotTestCase.m
+ create mode 100644 Example/Pods/FBSnapshotTestCase/FBSnapshotTestCase/FBSnapshotTestCasePlatform.h
+ create mode 100644 Example/Pods/FBSnapshotTestCase/FBSnapshotTestCase/FBSnapshotTestCasePlatform.m
+ create mode 100644 Example/Pods/FBSnapshotTestCase/FBSnapshotTestCase/FBSnapshotTestController.h
+ create mode 100644 Example/Pods/FBSnapshotTestCase/FBSnapshotTestCase/FBSnapshotTestController.m
+ create mode 100644 Example/Pods/FBSnapshotTestCase/FBSnapshotTestCase/SwiftSupport.swift
+ create mode 100644 Example/Pods/FBSnapshotTestCase/LICENSE
+ create mode 100644 Example/Pods/FBSnapshotTestCase/README.md
+ create mode 100644 Example/Pods/Local Podspecs/MyLibrary.podspec.json
+ create mode 100644 Example/Pods/Manifest.lock
+ create mode 100644 Example/Pods/Pods.xcodeproj/project.pbxproj
+ create mode 100644 Example/Pods/Pods.xcodeproj/xcuserdata/timhuang.xcuserdatad/xcschemes/FBSnapshotTestCase.xcscheme
+ create mode 100644 Example/Pods/Pods.xcodeproj/xcuserdata/timhuang.xcuserdatad/xcschemes/MyLibrary.xcscheme
+ create mode 100644 Example/Pods/Pods.xcodeproj/xcuserdata/timhuang.xcuserdatad/xcschemes/Pods-MyLibrary_Example.xcscheme
+ create mode 100644 Example/Pods/Pods.xcodeproj/xcuserdata/timhuang.xcuserdatad/xcschemes/Pods-MyLibrary_Tests.xcscheme
+ create mode 100644 Example/Pods/Pods.xcodeproj/xcuserdata/timhuang.xcuserdatad/xcschemes/xcschememanagement.plist
+ create mode 100644 Example/Pods/Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist
+ create mode 100644 Example/Pods/Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-dummy.m
+ create mode 100644 Example/Pods/Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch
+ create mode 100644 Example/Pods/Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-umbrella.h
+ create mode 100644 Example/Pods/Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.debug.xcconfig
+ create mode 100644 Example/Pods/Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap
+ create mode 100644 Example/Pods/Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.release.xcconfig
+ create mode 100644 Example/Pods/Target Support Files/MyLibrary/MyLibrary-Info.plist
+ create mode 100644 Example/Pods/Target Support Files/MyLibrary/MyLibrary-dummy.m
+ create mode 100644 Example/Pods/Target Support Files/MyLibrary/MyLibrary-prefix.pch
+ create mode 100644 Example/Pods/Target Support Files/MyLibrary/MyLibrary-umbrella.h
+ create mode 100644 Example/Pods/Target Support Files/MyLibrary/MyLibrary.debug.xcconfig
+ create mode 100644 Example/Pods/Target Support Files/MyLibrary/MyLibrary.modulemap
+ create mode 100644 Example/Pods/Target Support Files/MyLibrary/MyLibrary.release.xcconfig
+ create mode 100644 Example/Pods/Target Support Files/Pods-MyLibrary_Example/Pods-MyLibrary_Example-Info.plist
+ create mode 100644 Example/Pods/Target Support Files/Pods-MyLibrary_Example/Pods-MyLibrary_Example-acknowledgements.markdown
+ create mode 100644 Example/Pods/Target Support Files/Pods-MyLibrary_Example/Pods-MyLibrary_Example-acknowledgements.plist
+ create mode 100644 Example/Pods/Target Support Files/Pods-MyLibrary_Example/Pods-MyLibrary_Example-dummy.m
+ create mode 100755 Example/Pods/Target Support Files/Pods-MyLibrary_Example/Pods-MyLibrary_Example-frameworks.sh
+ create mode 100644 Example/Pods/Target Support Files/Pods-MyLibrary_Example/Pods-MyLibrary_Example-umbrella.h
+ create mode 100644 Example/Pods/Target Support Files/Pods-MyLibrary_Example/Pods-MyLibrary_Example.debug.xcconfig
+ create mode 100644 Example/Pods/Target Support Files/Pods-MyLibrary_Example/Pods-MyLibrary_Example.modulemap
+ create mode 100644 Example/Pods/Target Support Files/Pods-MyLibrary_Example/Pods-MyLibrary_Example.release.xcconfig
+ create mode 100644 Example/Pods/Target Support Files/Pods-MyLibrary_Tests/Pods-MyLibrary_Tests-Info.plist
+ create mode 100644 Example/Pods/Target Support Files/Pods-MyLibrary_Tests/Pods-MyLibrary_Tests-acknowledgements.markdown
+ create mode 100644 Example/Pods/Target Support Files/Pods-MyLibrary_Tests/Pods-MyLibrary_Tests-acknowledgements.plist
+ create mode 100644 Example/Pods/Target Support Files/Pods-MyLibrary_Tests/Pods-MyLibrary_Tests-dummy.m
+ create mode 100755 Example/Pods/Target Support Files/Pods-MyLibrary_Tests/Pods-MyLibrary_Tests-frameworks.sh
+ create mode 100644 Example/Pods/Target Support Files/Pods-MyLibrary_Tests/Pods-MyLibrary_Tests-umbrella.h
+ create mode 100644 Example/Pods/Target Support Files/Pods-MyLibrary_Tests/Pods-MyLibrary_Tests.debug.xcconfig
+ create mode 100644 Example/Pods/Target Support Files/Pods-MyLibrary_Tests/Pods-MyLibrary_Tests.modulemap
+ create mode 100644 Example/Pods/Target Support Files/Pods-MyLibrary_Tests/Pods-MyLibrary_Tests.release.xcconfig
+ create mode 100644 Example/Tests/Tests-Info.plist
+ create mode 100644 Example/Tests/Tests-Prefix.pch
+ create mode 100644 Example/Tests/Tests.m
+ create mode 100644 Example/Tests/en.lproj/InfoPlist.strings
+ create mode 100644 LICENSE
+ create mode 100644 MyLibrary.podspec
+ create mode 100644 MyLibrary/Assets/.gitkeep
+ create mode 100644 MyLibrary/Classes/.gitkeep
+ create mode 100644 MyLibrary/Classes/MyLibraryManager.h
+ create mode 100644 MyLibrary/Classes/MyLibraryManager.m
+ create mode 100644 README.md
+ create mode 120000 _Pods.xcodeproj
+➜  MyLibrary git:(master) git push
+Username for 'https://github.com': fablehuang
+Password for 'https://fablehuang@github.com':
+fatal: 无法访问 'https://github.com/fablehuang/MyLibrary.git/'：The requested URL returned error: 400
+➜  MyLibrary git:(master) git remote add MyLibrary https://github.com/fablehuang/MyLibrary.git
